@@ -1,7 +1,9 @@
 export const data = {
     "name": 'Madhav Joshi',
     "age": 21,
-    "tag": 'MERN Developer',
+    "role": 'MERN Developer',
+
+    "tags":"Full-Stack Developer, MERN Developer",
 
     "bio": "I am a passionate MERN stack developer with a strong foundation in web development. I enjoy building dynamic and responsive web applications, and I am always eager to learn new technologies and improve my skills. My goal is to contribute to innovative projects and collaborate with like-minded individuals in the tech community.",
 
