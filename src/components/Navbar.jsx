@@ -4,13 +4,13 @@ import {data} from '../data'
 const Navbar = () => {
     const {name, role} = data
     return (
-        <nav className='flex justify-between items-center px-5 py-3'>
+        <nav className='flex justify-between items-center px-7 py-4 border-b border-b-1'>
             <span className='text-2xl font-semibold'>{name}</span>
-            <ul>
+            <ul className='flex gap-5 items-center'>
                 <li>About</li>
                 <li>Contact</li>
             </ul>
-            <span className='text-2xl font-semibold'>{role}</span>
+            <span className='text-xl '>{role}</span>
         </nav>
     )
 }
