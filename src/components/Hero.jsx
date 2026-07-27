@@ -5,7 +5,7 @@ const Hero = () => {
     const {bio} = data
   return (
     <>
-<p className='text-xl'>{bio}</p>
+<p className='text-xl text-center md:w-[60%]'>{bio}</p>
     </>
   )
 }
